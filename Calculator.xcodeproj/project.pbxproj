@@ -21,6 +21,7 @@
 		035EF2AE1984E72A009A8BFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035EF2901984E72A009A8BFE /* UIKit.framework */; };
 		035EF2B61984E72A009A8BFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035EF2B41984E72A009A8BFE /* InfoPlist.strings */; };
 		035EF2B81984E72A009A8BFE /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EF2B71984E72A009A8BFE /* CalculatorTests.m */; };
+		035EF2C31984FD52009A8BFE /* SSCalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 035EF2C21984FD52009A8BFE /* SSCalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		035EF2B31984E72A009A8BFE /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		035EF2B51984E72A009A8BFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		035EF2B71984E72A009A8BFE /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		035EF2C11984FD52009A8BFE /* SSCalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCalculatorBrain.h; sourceTree = "<group>"; };
+		035EF2C21984FD52009A8BFE /* SSCalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				035EF29B1984E72A009A8BFE /* SSAppDelegate.h */,
 				035EF29C1984E72A009A8BFE /* SSAppDelegate.m */,
 				035EF29E1984E72A009A8BFE /* Main.storyboard */,
+				035EF2C11984FD52009A8BFE /* SSCalculatorBrain.h */,
+				035EF2C21984FD52009A8BFE /* SSCalculatorBrain.m */,
 				035EF2A11984E72A009A8BFE /* SSViewController.h */,
 				035EF2A21984E72A009A8BFE /* SSViewController.m */,
 				035EF2A41984E72A009A8BFE /* Images.xcassets */,
@@ -252,6 +257,7 @@
 			files = (
 				035EF2A31984E72A009A8BFE /* SSViewController.m in Sources */,
 				035EF29D1984E72A009A8BFE /* SSAppDelegate.m in Sources */,
+				035EF2C31984FD52009A8BFE /* SSCalculatorBrain.m in Sources */,
 				035EF2991984E72A009A8BFE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
