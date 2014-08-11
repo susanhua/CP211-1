@@ -33,6 +33,8 @@
         operand = sqrt(operand);
     }else if ([operator isEqualToString:@"+/-"]){
         operand = 0 - (operand);
+    }else if ([operator isEqualToString:@"c"]){
+        operand = 0;
     }
     else {
         [self performWaitingOperator];

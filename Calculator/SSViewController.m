@@ -10,8 +10,7 @@
 #import "SSCalculatorBrain.h"
 
 @interface SSViewController (){
-    SSCalculatorBrain *_brain;
-    
+    SSCalculatorBrain *_brain;//私有变量
     BOOL userIsTypingNumber; //状态变量，model和controller之间的交互
 }
 
@@ -29,7 +28,6 @@
 -(SSCalculatorBrain *)brain{
     if (!_brain) _brain = [[SSCalculatorBrain alloc] init];
     return _brain;
-    
 }//如果它是空的，创建brain （初始化）
 
 - (void)viewDidLoad
