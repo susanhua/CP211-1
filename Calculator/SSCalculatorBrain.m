@@ -31,9 +31,12 @@
 -(double)performOperator:(NSString*)operator{
     if ([operator isEqualToString:@"sqrt"]) {
         operand = sqrt(operand);
-    } else {
+    }else if ([operator isEqualToString:@"+/-"]){
+        operand = 0 - (operand);
+    }
+    else {
         [self performWaitingOperator];
-        waitingOperator = operator;
+        waitingOperator = operator;//为什么没有定义过啊？
         waitingOperand = operand;
     }//判断之前是否有操作数，如果有操作掉，如果没有等数字和下一个操作符进入时再计算
     return operand;

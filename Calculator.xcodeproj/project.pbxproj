@@ -115,8 +115,8 @@
 		035EF2921984E72A009A8BFE /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				035EF29B1984E72A009A8BFE /* SSAppDelegate.h */,
 				035EF29C1984E72A009A8BFE /* SSAppDelegate.m */,
+				035EF29B1984E72A009A8BFE /* SSAppDelegate.h */,
 				035EF29E1984E72A009A8BFE /* Main.storyboard */,
 				035EF2C11984FD52009A8BFE /* SSCalculatorBrain.h */,
 				035EF2C21984FD52009A8BFE /* SSCalculatorBrain.m */,
@@ -465,6 +465,7 @@
 				035EF2BD1984E72A009A8BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		035EF2BE1984E72A009A8BFE /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +474,7 @@
 				035EF2C01984E72A009A8BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
